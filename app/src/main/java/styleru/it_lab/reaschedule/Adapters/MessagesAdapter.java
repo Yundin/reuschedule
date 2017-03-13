@@ -72,5 +72,4 @@ public class MessagesAdapter extends BaseAdapter {
     private Message getMessage(int position) {
         return ((Message) getItem(position));
     }
-
 }

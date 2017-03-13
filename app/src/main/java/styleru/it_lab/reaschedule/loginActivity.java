@@ -21,7 +21,7 @@ import java.util.List;
 import styleru.it_lab.reaschedule.Operations.MemoryOperations;
 import styleru.it_lab.reaschedule.Operations.NetworkOperations;
 
-public class LoginActivity extends Activity {
+class LoginActivity extends Activity {
 
     LinearLayout loginLayout;
     LinearLayout login1Layout;

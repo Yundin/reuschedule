@@ -11,6 +11,17 @@
         android:orientation="vertical"
         android:weightSum="1">
 
+        <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:layout_gravity="top"
+                android:gravity="top"
+                android:divider="@drawable/tab_divider1"
+                android:showDividers="middle"
+                android:background="#0076ff"></TabWidget>
+
         <FrameLayout
             android:id="@android:id/tabcontent"
             android:layout_width="fill_parent"
@@ -18,17 +29,6 @@
             android:layout_weight="1">
 
         </FrameLayout>
-
-        <TabWidget
-            android:id="@android:id/tabs"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:baselineAligned="false"
-            android:layout_gravity="bottom"
-            android:gravity="bottom"
-            android:divider="@drawable/tab_divider1"
-            android:showDividers="middle"
-            android:background="#0076ff"></TabWidget>
 
     </LinearLayout>
 </TabHost>
