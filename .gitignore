@@ -5,3 +5,12 @@
 .DS_Store
 /build
 /captures
+.idea/encodings.xml
+.idea/gradle.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+app/app.iml
+build.gradle
+gradle/wrapper/gradle-wrapper.properties
