@@ -32,6 +32,7 @@ import styleru.it_lab.reaschedule.Operations.ScheduleUIManager;
 import styleru.it_lab.reaschedule.Schedule.Week;
 import styleru.it_lab.reaschedule.Services.GcmRegistrationIntentService;
 //Крашится на Кит-Кате
+//another try
 @SuppressWarnings("unchecked")
 public class MainMenuActivity extends AppCompatActivity {
 
